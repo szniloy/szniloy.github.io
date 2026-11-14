@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://szniloy.github.io/sitemap.xml

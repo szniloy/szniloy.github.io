@@ -1,13 +1,14 @@
-# portfolio_web
+# szniloy.github.io
 
 Portfolio website of **Md Sahiduzzaman Niloy**, Mobile App Developer (Kotlin · KMP · UI/UX).
-Live: https://szniloy.github.io/portfolio_web/
+Live: https://szniloy.github.io/
 
 ## Project structure
 
 ```
-portfolio_web/
+szniloy.github.io/
 ├── index.html                       Page content (all sections)
+├── robots.txt / sitemap.xml         Search engine files
 ├── css/
 │   ├── style.css                    Site styles
 │   └── project-demos.css            Project popup styles
@@ -16,7 +17,7 @@ portfolio_web/
 │   ├── project-demos-config.js      ← Project popup settings (edit this one)
 │   └── project-demos.js             Popup engine + built-in prototypes
 └── resources/                       All media in one place
-    ├── brand/                       Logo + browser tab icons (favicon)
+    ├── brand/                       Logo, tab icons, link-preview cover (og-cover.jpg)
     ├── images/                      Project card images
     ├── videos/                      Demo recordings (.mp4)
     └── prototypes/                  Prototype files
