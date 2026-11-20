@@ -70,5 +70,12 @@ const PROJECT_DEMOS = {
     about:'Home feed, movie details, episodes and the player, recorded on a real device.',
     logo:'🎬', accent:'#E50914', repo:'',
     chapters:[['Home feed',0],['Movie details',9],['Episodes',18]]
-  }
+  },
+  coffee: {
+    type:'video', src:'resources/videos/stampuccino-app.mp4',
+    name:'Stampuccino', tagline:'Coffee ordering &amp; <em>loyalty app.</em>',
+    about:'Order ahead, customise every drink, pay in seconds and collect a stamp with every sip. The app also has a loyalty card, a stamp card and a profile page.',
+    logo:'☕', accent:'#E08A3C', repo:'',
+    chapters:[['Onboarding',0],['Sign in',6],['Home',9],['Menu',12],['Drink details',15],['Cart',24],['Checkout',30],['Loyalty &amp; stamp card',45],['Profile',54]]
+  },
 };

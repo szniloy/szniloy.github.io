@@ -706,7 +706,7 @@ PROTOTYPES.air = (() => {
     const stack = card ? [...card.querySelectorAll('.proj-stack span')].map(s=>s.textContent.trim()).slice(0,2) : [];
     let meta = [];
     if(d.type==='prototype'){ const p=PROTOTYPES[d.prototype]; meta=[screensOf(p).length+' screens', p.flows.length+' flows', 'Clickable prototype']; }
-    else if(d.type==='video') meta=['Video walkthrough', 'Real device'];
+    else if(d.type==='video') meta=['Video walkthrough'];
     else meta=['Interactive prototype'];
     if(stack.length) meta.push(stack.join(' · '));
     intro.innerHTML = `<div class="pm-logo" aria-hidden="true">${d.logo||'📱'}</div>
